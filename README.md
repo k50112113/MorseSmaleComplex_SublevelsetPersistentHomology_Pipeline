@@ -3,27 +3,27 @@ This is a python pipeline for interfacing with TTK and run Morse-Smale Complex/S
 
 For creating VTK file you need:
 
-  Mayavi (tvtk module): https://docs.enthought.com/mayavi/mayavi/installation.html
+  1. Mayavi (tvtk module): https://docs.enthought.com/mayavi/mayavi/installation.html
 
 For running TTK you need:
 
-  Installing TTK: https://anaconda.org/conda-forge/topologytoolkit
-  
-  Installing vtk: https://anaconda.org/conda-forge/vtk
+  1. Installing TTK: https://anaconda.org/conda-forge/topologytoolkit
+  2. Installing vtk: https://anaconda.org/conda-forge/vtk
 
 For visualization you need:
 
-  Matplotlib: https://anaconda.org/conda-forge/matplotlib
-  
-  For 3D iso-surface plot, you also need scikit-image (skimage module): https://scikit-image.org/docs/stable/user_guide/install.html
+  1. Matplotlib: https://anaconda.org/conda-forge/matplotlib
+  2. For 3D iso-surface plot, you also need scikit-image (skimage module): https://scikit-image.org/docs/stable/user_guide/install.html
+
 
 If there are conflicts between TTK and other packages, you might need one conda environment only for TTK and another for creating VTK files and visualization.
 
 This repository contains to examples:
-butane_2d_log_prob_example.txt: The log probability distribution function embedded on a 2D autoencoder-learned CV space for Butane in gas phase. 
-pentane_3d_log_prob_example.txt: The log probability distribution function embedded on a 3D autoencoder-learned CV space for Pentane in gas phase.
-for more details about the example data, please refer to the citation.
-for details about how to run the pipeline, please see run.sh
+
+  1. butane_2d_log_prob_example.txt: The log probability distribution function embedded on a 2D autoencoder-learned CV space for Butane in gas phase.
+  2. pentane_3d_log_prob_example.txt: The log probability distribution function embedded on a 3D autoencoder-learned CV space for Pentane in gas phase.
+     
+For more details about the example data, please refer to the citation, and for details about how to run the pipeline, please see run.sh
 
 
 Please cite the following paper if you used this pipeline:
