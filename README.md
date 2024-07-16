@@ -2,14 +2,19 @@
 This is a python pipeline for interfacing with TTK and run Morse-Smale Complex/Sublevelset Persistent Homology analysis
 
 For creating VTK file you need:
+
   Mayavi (tvtk module): https://docs.enthought.com/mayavi/mayavi/installation.html
 
 For running TTK you need:
+
   Installing TTK: https://anaconda.org/conda-forge/topologytoolkit
+  
   Installing vtk: https://anaconda.org/conda-forge/vtk
 
 For visualization you need:
+
   Matplotlib: https://anaconda.org/conda-forge/matplotlib
+  
   For 3D iso-surface plot, you also need scikit-image (skimage module): https://scikit-image.org/docs/stable/user_guide/install.html
 
 If there are conflicts between TTK and other packages, you might need one conda environment only for TTK and another for creating VTK files and visualization.
