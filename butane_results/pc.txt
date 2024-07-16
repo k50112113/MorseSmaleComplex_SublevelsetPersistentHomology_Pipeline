@@ -1,0 +1,10 @@
+"Persistence (minimum-saddle pairs)","Number Of Pairs (minimum-saddle pairs)"
+1e-14,9
+1e-14,8
+1e-14,7
+1e-14,6
+1e-14,5
+0.0448685,4
+0.324318,3
+5.77582,2
+10.0077,1
