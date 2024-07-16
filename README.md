@@ -14,6 +14,13 @@ For visualization you need:
 
 If there are conflicts between TTK and other packages, you might need one conda environment only for TTK and another for creating VTK files and visualization.
 
+This repository contains to examples:
+butane_2d_log_prob_example.txt: The log probability distribution function embedded on a 2D autoencoder-learned CV space for Butane in gas phase. 
+pentane_3d_log_prob_example.txt: The log probability distribution function embedded on a 3D autoencoder-learned CV space for Pentane in gas phase.
+for more details about the example data, please refer to the citation.
+for details about how to run the pipeline, please see run.sh
+
+
 Please cite the following paper if you used this pipeline:
 
 Shao-Chun Lee, Y Z, "Interpretation of autoencoder-learned collective variables using Morse–Smale complex and sublevelset persistent homology: An application on molecular trajectories", J. Chem. Phys. 160, 144104 (2024) DOI: https://doi.org/10.1063/5.0191446
