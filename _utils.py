@@ -8,7 +8,7 @@ def read_grid_data(filename):
     # X2 Y2 v2
     # X3 Y3 v3
     # ...
-    # 
+    # –
     # 3D grid data example:
     # X1 Y1 Z1 v1
     # X2 Y2 Z2 v2
@@ -304,4 +304,3 @@ def plot(CV, colorcode=None, cmap=None, elev=13., azim=0):
 
         return fig, ax, plt
                 
-        
